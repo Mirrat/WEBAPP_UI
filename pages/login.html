@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Falcons x Kudu – Login</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="login">
+  <div class="login-container">
+    <div class="buttons">
+      
+      <a href="welcome.html"
+         onclick="event.preventDefault();
+                  this.querySelector('img').src='../assets/images/Sign In_S.png';
+                  setTimeout(() => location.href='welcome.html', 200);">
+        <img src="../assets/images/Sign In_N.png" alt="Sign In">
+      </a>
+
+      
+      <a href="register.html"
+         onclick="event.preventDefault();
+                  this.querySelector('img').src='../assets/images/register_S.png';
+                  setTimeout(() => location.href='register.html', 200);">
+        <img src="../assets/images/register_N.png" alt="Register">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
